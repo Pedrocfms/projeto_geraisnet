@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10vw 20vw 10vw 30vw 30vw;
+    grid-template-rows: 10vh 45vh 45vh;
+}
+
+.container .menu1 {
+    display: grid;
+    align-items: center;
+}
+
+.menu1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #242423;
+    padding-left: 3vw;    
+}
+
+.menu1 a {
+    color: #E8EDDF;
+    font-size: 1.3rem;
+}
+
+header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #242423;
+}
+
+.container .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #242423;
+}
+
+.redes a {
+    color: #E8EDDF;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 0 1vw 0 8vw;
+}
+
+.redes a:hover {
+    color: #F5CB5C;
+}
+
+.container .login {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+.login {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #242423;
+    padding-right: 5vw;
+}
+
+.login a {
+    text-decoration: none;
+    color: #E8EDDF;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.container .menu2 {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menu2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background: #333533;
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: #E8EDDF;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+	display: block;
+	margin: 1em;
+	padding: 3.5vh 14vw 3.5vh 1vw;
+	border: 1px solid #E8EDDF;
+	color: #E8EDDF;
+}
+
+.menu2 a:hover {
+    background-color: #F5CB5C;
+    color: #242423;
+}
+
+.container main {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+main {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #E8EDDF;
+    padding-left: 0.3vw;
+    padding-top: 15vh;
+}
+
+section {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #E8EDDF;
+}
+
+.container section h1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+section h1 {
+    color: #333533;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+}
+
+.container section h2 {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+section h2 {
+    color: #333533;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-left: 5vw;
+}
+
+.container section p {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+section p {
+    color: #333533;
+    font-size: 0.6rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-top: 27vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
